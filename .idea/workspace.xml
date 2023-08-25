@@ -4,47 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Agregado System.out">
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Renombre Ejercicios y arreglos varios">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Alumno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_I.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_II.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_III.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema6.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad3/DosSaludo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad3/EjercicioDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad3/TresCAritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad3/EjercicioTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad3/UnoMostrarDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad3/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/CincoArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCinco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/CuatroIndiceMasaCorp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCuatro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/DiezRedondeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioDiez.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/DosTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/NueveDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioNueve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/OchoHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioOcho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/SeisEuroDolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioSeis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/SieteMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioSiete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/TresRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/UnoTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/CincoRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioCinco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/CuatroMetMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioCuatro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/DosArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/SeisDecimales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioSeis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/SieteDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioSiete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/TresMetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad5/UnoImc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad5/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/CatorceNumAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioCatorce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/CincoContar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioCinco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/CuatroCalculoMental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioCuatro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/DiezNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDiez.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/DoceFrutero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDoce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/DosParPositCuad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/NueveMayorMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioNueve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/OchoMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioOcho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/OnceDiaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/QuinceCienNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioQuince.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/SeisParImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioSeis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/SieteIguales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioSiete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/TrecePositivoNegativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioTrece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/TresEdades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/UnoAdivinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad7/DosDecimales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad7/TresOrdenInverso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad7/UnoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioUno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DanJava2023"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8d1f8843-62a7-41f9-a25d-fe3e9011dfae" />
+        <option name="url" value="https://github.com/DanJava2023/AcademiaIntelliJ.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" root0="FORCE_HIGHLIGHTING" />
@@ -77,9 +61,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,7 +72,7 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjercicioSeis">
+  <component name="RunManager" selected="Application.FuncionesMain">
     <configuration name="EjercicioDos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.actividad3.EjercicioDos" />
       <module name="Academia" />
@@ -129,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioSeis" />
         <item itemvalue="Application.FuncionesMain" />
+        <item itemvalue="Application.EjercicioSeis" />
         <item itemvalue="Application.EjercicioDos" />
       </list>
     </recent_temporary>
@@ -152,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692985622317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renombre Ejercicios">
+      <option name="closed" value="true" />
+      <created>1692987603073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692987603073</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Renombre Ejercicios y arreglos varios">
+      <option name="closed" value="true" />
+      <created>1692988236769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692988236769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +170,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Agregado System.out" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregado System.out" />
+    <MESSAGE value="Renombre Ejercicios" />
+    <MESSAGE value="Renombre Ejercicios y arreglos varios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renombre Ejercicios y arreglos varios" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

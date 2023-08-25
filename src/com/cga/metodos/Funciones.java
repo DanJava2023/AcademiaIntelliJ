@@ -87,6 +87,7 @@ public class Funciones {
 		System.out.println("Pulse 1 para sumar. Pulse 2 para restar. Pulse 3 para multiplicar. Pulse 4 para dividir. ");
 		int uNum = teclado.nextInt();
 
+
         switch (uNum) {
             case 1 -> operatoria = n1 + n2;
             case 2 -> operatoria = n1 - n2;
