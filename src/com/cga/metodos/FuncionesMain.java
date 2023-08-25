@@ -27,7 +27,7 @@ public class FuncionesMain {
 		System.out.println("\n");
 		
 		// Ejercicio 6
-		System.out.print("¿El carácter que has introducido es una vocal? " + fun.userVocal(""));
+		System.out.print("¿El carácter que has introducido es una vocal? " + fun.userVocal());
 		System.out.println("\n");
 		
 		// Ejercicio 7

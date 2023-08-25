@@ -17,23 +17,13 @@ public class EjercicioDiez {
 		System.out.print("Inserte la nota del exámen: ");
 		nota = teclado.nextInt();
 
-		switch (nota) {
-		case 0,1,2,3,4:
-			System.out.print("Insuficiente");
-			break;
-		case 5:
-			System.out.print("Suficiente");
-			break;
-		case 6:
-			System.out.print("Bien");
-			break;
-		case 7,8:
-			System.out.print("Notable");
-			break;
-		case 9,10:
-			System.out.print("Sobresaliente");
-			break;
-		}
+        switch (nota) {
+            case 0, 1, 2, 3, 4 -> System.out.print("Insuficiente");
+            case 5 -> System.out.print("Suficiente");
+            case 6 -> System.out.print("Bien");
+            case 7, 8 -> System.out.print("Notable");
+            case 9, 10 -> System.out.print("Sobresaliente");
+        }
 		
 		teclado.close();
 

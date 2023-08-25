@@ -23,7 +23,7 @@ public class EjercicioSeis {
 		
 				conversor = E * D;
 		
-				System.out.printf("El valor en dolares es: C", conversor);
+				System.out.printf("El valor en dolares es: %.2f", conversor);
 		
 				teclado.close();		
 				

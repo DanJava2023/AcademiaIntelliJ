@@ -48,9 +48,9 @@ public class Funciones {
 	}
 
 	// Ejercicio 6
-	public boolean userVocal(String voc) {
+	public boolean userVocal() {
 		System.out.print("Introduzca un carácter: ");
-		voc = teclado.next();
+		String voc = teclado.next();
 
         return voc.equals("a") || voc.equals("e") || voc.equals("i") || voc.equals("o") || voc.equals("u");
 	}

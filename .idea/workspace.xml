@@ -87,13 +87,26 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncionesMain">
+  <component name="RunManager" selected="Application.EjercicioSeis">
     <configuration name="EjercicioDos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.actividad3.EjercicioDos" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cga.actividad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjercicioSeis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad4.EjercicioSeis" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.actividad4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioSeis" />
         <item itemvalue="Application.FuncionesMain" />
         <item itemvalue="Application.EjercicioDos" />
       </list>
