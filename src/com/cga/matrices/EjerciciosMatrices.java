@@ -69,7 +69,6 @@ public class EjerciciosMatrices {
 //		}	
 		
 		sc.close();
-		System.out.print("ghfdhrhrt");
 	}
 
 }

@@ -39,17 +39,12 @@ public class Funciones {
 
 	// Ejercicio 4
 	public int maximo(int num1, int num2) {
-		int result = Math.max(num1, num2);
-		return result;
+        return Math.max(num1, num2);
 	}
 
 	// Ejercicio 5
 	public boolean vocal(char voc) {
-		if (voc == 'a' || voc == 'e' || voc == 'i' || voc == 'o' || voc == 'u') {
-			return true;
-		} else {
-			return false;
-		}
+        return voc == 'a' || voc == 'e' || voc == 'i' || voc == 'o' || voc == 'u';
 	}
 
 	// Ejercicio 6
@@ -57,11 +52,7 @@ public class Funciones {
 		System.out.print("Introduzca un carácter: ");
 		voc = teclado.next();
 
-		if (voc.equals("a") || voc.equals("e") || voc.equals("i") || voc.equals("o") || voc.equals("u")) {
-			return true;
-		} else {
-			return false;
-		}
+        return voc.equals("a") || voc.equals("e") || voc.equals("i") || voc.equals("o") || voc.equals("u");
 	}
 
 	// Ejercicio 7
@@ -96,34 +87,25 @@ public class Funciones {
 		System.out.println("Pulse 1 para sumar. Pulse 2 para restar. Pulse 3 para multiplicar. Pulse 4 para dividir. ");
 		int uNum = teclado.nextInt();
 
-		switch (uNum) {
-		case 1:
-			operatoria = n1 + n2;
-			break;
-		case 2:
-			operatoria = n1 - n2;
-			break;
-		case 3:
-			operatoria = n1 * n2;
-			break;
-		case 4:
-			operatoria = n1 / n2;
-			break;
-		}
+        switch (uNum) {
+            case 1 -> operatoria = n1 + n2;
+            case 2 -> operatoria = n1 - n2;
+            case 3 -> operatoria = n1 * n2;
+            case 4 -> operatoria = n1 / n2;
+        }
 		return operatoria;
 	}
 
 	// Ejercicio 10
 	public int maximo(int num1, int num2, int num3) {
 		int result = Math.max(num1, num2);
-		int max = Math.max(result, num3);
-		return max;
+        return Math.max(result, num3);
 	}
 
 	// Ejercicio 11
 	public double potencia(double base, int exp) {
 
-		double resp = 0;
+		double resp;
 
 		if (exp == 0) {
 			resp = 1.0;
