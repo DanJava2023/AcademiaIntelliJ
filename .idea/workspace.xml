@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Renombre Ejercicios y arreglos varios">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Alumno.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_I.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_II.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_Java_I_Parte_III.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDF/2023_CGA_PRO_CTema6.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +15,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DanJava2023"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanJava2023&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -62,6 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
