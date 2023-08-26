@@ -17,7 +17,7 @@ public class Funciones {
     // Ejercicio 2
     public void between(int n1, int n2) {
         for (int i = n1 + 1; i < n2; i++) {
-            System.out.println("Los números entre " + n1 + " y " + n2 + " son " + i);
+            System.out.print(i + ", ");
         }
     }
 
@@ -27,13 +27,15 @@ public class Funciones {
         double area = 2 * Math.PI * radio * (altura + radio);
         double volumen = Math.PI * (radio * radio) * altura;
 
-        System.out.print("Para calcular el area pulse 1. Para calcular el volumen pulse 2: ");
+        System.out.print("Para calcular el area del cilindro pulse 1. Para calcular el volúmen del cilindro pulse 2: ");
         int uNum = teclado.nextInt();
 
         if (uNum == 1) {
-            System.out.printf("El cálculo del area es: %.2f", area);
+            System.out.printf("El area es: %.2f", area);
+            System.out.print("\n");
         } else if (uNum == 2) {
-            System.out.printf("El cálculo del volumen es: %.2f", volumen);
+            System.out.printf("El volúmen es: %.2f", volumen);
+            System.out.print("\n");
         }
     }
 
@@ -52,7 +54,7 @@ public class Funciones {
         System.out.print("Introduzca un carácter: ");
         String voc = teclado.next();
 
-        return voc.equals("a") || voc.equals("e") || voc.equals("i") || voc.equals("o") || voc.equals("u");
+        return voc.equals("a") || voc.equals("e") || voc.equals("i") || voc.equals("o") || voc.equals("u") || voc.equals("A") || voc.equals("E") || voc.equals("I") || voc.equals("O") || voc.equals("U");
     }
 
     // Ejercicio 7
