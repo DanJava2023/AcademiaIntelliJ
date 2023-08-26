@@ -137,8 +137,7 @@ public class FuncionesMain {
                     System.out.println("\n");
                 }
             }
-        } while (uNum != 0);
-        {
+        } while (uNum != 0); {
             System.out.println("Saliendo del programa...");
         }
 
