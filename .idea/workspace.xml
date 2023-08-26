@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Renombre Ejercicios y arreglos varios">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Subiendo PDF Parte IV">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/metodos/Funciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/metodos/FuncionesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/metodos/FuncionesMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="8d1f8843-62a7-41f9-a25d-fe3e9011dfae" />
+        <option name="accountId" value="b7e7ceaa-efc1-4996-9e49-13c744157804" />
         <option name="url" value="https://github.com/DanJava2023/AcademiaIntelliJ.git" />
       </UrlAndAccount>
     </option>
@@ -46,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "onboarding.tips.debug.path": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
@@ -144,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692988236769</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Subiendo PDF Parte IV">
+      <option name="closed" value="true" />
+      <created>1692998012139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692998012139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +173,8 @@
     <MESSAGE value="Agregado System.out" />
     <MESSAGE value="Renombre Ejercicios" />
     <MESSAGE value="Renombre Ejercicios y arreglos varios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renombre Ejercicios y arreglos varios" />
+    <MESSAGE value="Subiendo PDF Parte IV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subiendo PDF Parte IV" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
