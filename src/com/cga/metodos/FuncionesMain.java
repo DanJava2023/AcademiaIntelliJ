@@ -9,7 +9,7 @@ public class FuncionesMain {
         Scanner sc = new Scanner(System.in);
         Funciones fun = new Funciones();
 
-        int uNum = 0;
+        int uNum;
 
         do {
             System.out.println("Escoge un ejercicio indicando su número entre el '1' y el '13' ó introduce '0' para terminar el programa. ");
