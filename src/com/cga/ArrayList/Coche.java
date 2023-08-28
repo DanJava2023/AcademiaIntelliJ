@@ -1,33 +1,33 @@
 package com.cga.ArrayList;
 
 public class Coche {
-    private String Matricula;
-    private String Marca;
-    private String Modelo;
+    private String matricula;
+    private String marca;
+    private String modelo;
     private int Km;
 
     public String getMatricula() {
-        return Matricula;
+        return matricula;
     }
 
-    public void setMatricula(String Matricula) {
-        this.Matricula = Matricula;
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     public String getMarca() {
-        return Marca;
+        return marca;
     }
 
-    public void setMarca(String Marca) {
-        this.Marca = Marca;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     public String getModelo() {
-        return Modelo;
+        return modelo;
     }
 
-    public void setModelo(String Modelo) {
-        this.Modelo = Modelo;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
     public int getKm() {
@@ -38,5 +38,13 @@ public class Coche {
         this.Km = Km;
     }
 
-
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "Matricula='" + matricula + '\'' +
+                ", Marca='" + marca + '\'' +
+                ", Modelo='" + modelo + '\'' +
+                ", Km=" + Km +
+                '}';
+    }
 }
