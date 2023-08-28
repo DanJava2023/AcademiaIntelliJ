@@ -3,7 +3,7 @@ package com.cga.ArrayList;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Main {
+public class CochesMain {
 
     static ArrayList<Coche> coches = new ArrayList<Coche>();
     static Scanner sc = new Scanner(System.in);
@@ -17,7 +17,8 @@ public class Main {
         mostrarPorKm();
         System.out.println("\nCoche con mayor número de Km: " + mostrarMayorKm());
         System.out.println("\nCoches ordenados de menor a mayor número de Km");
-        mostrarOrdenadorPorKm();
+        mostrarOrdenadoPorKm();
+        eliminarIndice();
 
     }
 
@@ -28,6 +29,7 @@ public class Main {
         String marca;
         String modelo;
         int Km;
+        int Id;
 
         // Variable auxiliar que contendrá la referencia a cada coche nuevo.
         Coche aux;
@@ -44,6 +46,7 @@ public class Main {
         for (i = 1; i <= N; i++) {
             // Leer datos de cada coche
             System.out.println("Coche " + i);
+            Id = i;
             System.out.println("Matrícula: ");
             matricula = sc.nextLine();
             System.out.println("Marca: ");
@@ -52,6 +55,7 @@ public class Main {
             modelo = sc.nextLine();
             System.out.println("Número de Kilómetros: ");
             Km = sc.nextInt();
+
             sc.nextLine(); // Limpiar el intro
 
             aux = new Coche(); // Se crea un objeto Coche y se asigna su referencia a aux
@@ -61,6 +65,7 @@ public class Main {
             aux.setMarca(marca);
             aux.setModelo(modelo);
             aux.setKm(Km);
+            aux.setId(Id);
 
             // Se añade el objeto al final del array
             coches.add(aux);
@@ -110,7 +115,7 @@ public class Main {
     }
 
     // Método que muestra los coches ordenador por número de Km de menor a mayor
-    public static void mostrarOrdenadorPorKm() {
+    public static void mostrarOrdenadoPorKm() {
         int i, j;
         Coche aux;
         for (i = 0; i < coches.size() - 1; i++)
@@ -120,6 +125,21 @@ public class Main {
                     coches.set(j + 1, coches.get(j));
                     coches.set(j, aux);
                 }
+        mostrarCoches();
+    }
+
+    // Método que elimina un índice
+    public static void eliminarIndice() {
+        int index;
+
+        System.out.println("Introduce la ID del coche para eliminarlo: ");
+        index = sc.nextInt();
+        for (int i = 0; i < coches.size(); i++) {
+            if (coches.get(i).getId() == index) {
+                coches.remove(i);
+            }
+
+        }
         mostrarCoches();
     }
 }

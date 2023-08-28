@@ -5,6 +5,15 @@ public class Coche {
     private String marca;
     private String modelo;
     private int Km;
+    private int Id;
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
 
     public String getMatricula() {
         return matricula;
@@ -41,10 +50,11 @@ public class Coche {
     @Override
     public String toString() {
         return "Coche{" +
-                "Matricula='" + matricula + '\'' +
-                ", Marca='" + marca + '\'' +
-                ", Modelo='" + modelo + '\'' +
+                "matricula='" + matricula + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
                 ", Km=" + Km +
+                ", Id=" + Id +
                 '}';
     }
 }
