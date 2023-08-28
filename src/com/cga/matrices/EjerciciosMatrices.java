@@ -31,6 +31,7 @@ public class EjerciciosMatrices {
 		System.out.println(); 
 
 		// Calcular el máximo y el mínimo
+
 		int numeroMayor = 0;
 		int numeroMenor = 0;
 
@@ -61,13 +62,7 @@ public class EjerciciosMatrices {
 		
 		
 		// Ordenar de mayor a menor la primera fila
-				
-//		for (int x = 0; x < a2d[0].length; x++) {
-//			for (int y = x + 1; y < a2d[0].length; y++) {
-//				int n = a2d[x];
-//			}
-//		}	
-		
+
 		sc.close();
 	}
 
