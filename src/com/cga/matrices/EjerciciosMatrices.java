@@ -3,6 +3,7 @@ package com.cga.matrices;
 import java.util.*;
 import java.lang.Math;
 import java.util.Collections;
+import java.util.Arrays;
 
 public class EjerciciosMatrices {
 
@@ -99,11 +100,54 @@ public class EjerciciosMatrices {
         // Calcular el máximo de la suma de los valores de cada fila, mostrar
         // dichos valores de esa fila junto a la sumatoria
 
+        int suma;
+
+        System.out.println("Suma de todas las filas y resultado: ");
+        for (int i = 0; i < a2d.length; i++) {
+            suma = 0;
+            for (int j = 0; j < a2d[i].length; j++) {
+                suma += a2d[i][j];
+                System.out.print(a2d[i][j] + " ");
+            }
+            System.out.println(" = " + suma);
+        }
 
         // Realizar una matriz de 4x3 de tipo String, cargar y mostrar el
         // orden inverso que la ha añadido
 
-        sc.close();
-    }
 
+        String[][] arr2d = new String[][]{{"Juan", "Dani", "Ivan"}, {"Douglas", "Roger", "Cande"}, {"Ruben", "Mel", "Erick"}, {"Leo", "Pepe", "Maria"}};
+        // Entrada de datos manual
+//      String[][] arr2d = new String[4][3];
+
+//        for (int i = 0; i < arr2d.length; i++) {
+//            for (int j = 0; j < arr2d[i].length; j++) {
+//                System.out.println("Introduce un nombre: ");
+//                String name = sc.next();
+//                arr2d[i][j] = name;
+//            }
+//        }
+        // Mostrar array
+        System.out.println();
+        System.out.println("Array con nombres original:");
+        for (int i = 0; i < arr2d.length; i++) {
+            for (int j = 0; j < arr2d[i].length; j++) {
+                System.out.print(arr2d[i][j] + " ");
+            }
+            System.out.println();
+//          System.out.println(Arrays.deepToString(arr2d));
+        }
+
+        System.out.println();
+        System.out.println("Array con nombres invertidos:");
+        for (int i = arr2d.length - 1; i >= 0; i--){
+            for (int j = arr2d[i].length -1; j >= 0; j--){
+                System.out.print(arr2d[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        sc.close();
+
+    }
 }
