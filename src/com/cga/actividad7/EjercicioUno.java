@@ -6,21 +6,21 @@ import java.lang.Math;
 
 public class EjercicioUno {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int[] arr = new int[10];
-		int suma = 0;
+        int[] arr = new int[10];
+        int suma = 0;
 
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = (int) (Math.random() * 100 + 1);
-			suma += arr[i];
-			System.out.print(i + " => " + arr[i] + " \n");
-		}
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * 100 + 1);
+            suma += arr[i];
+            System.out.print(i + " => " + arr[i] + " \n");
+        }
 
-		int media = (suma / arr.length);
+        int media = (suma / arr.length);
 
-		System.out.println("La suma de todos los valores es: " + suma);
-		System.out.println("La media de todos los valores es: " + media);
-	}
+        System.out.println("La suma de todos los valores es: " + suma);
+        System.out.println("La media de todos los valores es: " + media);
+    }
 
 }

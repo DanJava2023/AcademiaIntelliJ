@@ -8,7 +8,7 @@ import static com.cga.ArrayList.Clientes.mostrarClientes;
 
 public class ClientesMain {
 
-   static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
 

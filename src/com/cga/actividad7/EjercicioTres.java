@@ -7,29 +7,29 @@ import java.util.Scanner;
 
 public class EjercicioTres {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int uNum;
+        int uNum;
 
-		Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
-		System.out.println("¿Cuántos números quiere introducir?");
-		uNum = teclado.nextInt();
-		
-		int[] arr = new int [uNum];
+        System.out.println("¿Cuántos números quiere introducir?");
+        uNum = teclado.nextInt();
 
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print("Introduzca el número: ");
-			arr[i] = teclado.nextInt();
-		}
-		
-		System.out.print("El orden inverso es: ");
-		
-		for (int i = arr.length - 1; i >= 0; i--) {
-			System.out.print(arr[i] + " ");
-		}
-		
-		teclado.close();
-	}
+        int[] arr = new int[uNum];
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Introduzca el número: ");
+            arr[i] = teclado.nextInt();
+        }
+
+        System.out.print("El orden inverso es: ");
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
+        }
+
+        teclado.close();
+    }
 
 }

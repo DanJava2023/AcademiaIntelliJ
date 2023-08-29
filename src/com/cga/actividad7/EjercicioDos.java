@@ -7,23 +7,23 @@ import java.util.Arrays;
 
 public class EjercicioDos {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		double[] uNum = new double[5];
+        double[] uNum = new double[5];
 
-		Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Introduce cinco números decimales");
+        System.out.println("Introduce cinco números decimales");
 
-		for (int i = 0; i < uNum.length; i++) {
-			System.out.print("Inserte número decimal: ");
-			uNum[i] = teclado.nextDouble();
-		}
+        for (int i = 0; i < uNum.length; i++) {
+            System.out.print("Inserte número decimal: ");
+            uNum[i] = teclado.nextDouble();
+        }
 
-		teclado.close();
+        teclado.close();
 
-		System.out.print("Los números introducidos son: ");
-		System.out.println(Arrays.toString(uNum));
+        System.out.print("Los números introducidos son: ");
+        System.out.println(Arrays.toString(uNum));
 
 //		double[] uNum = new double [5];
 //		
@@ -48,6 +48,6 @@ public class EjercicioDos {
 //		
 //		teclado.close();
 
-	}
+    }
 
 }

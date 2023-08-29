@@ -117,6 +117,7 @@ public class EjerciciosMatrices {
 
 
         String[][] arr2d = new String[][]{{"Juan", "Dani", "Ivan"}, {"Douglas", "Roger", "Cande"}, {"Ruben", "Mel", "Erick"}, {"Leo", "Pepe", "Maria"}};
+
         // Entrada de datos manual
 //      String[][] arr2d = new String[4][3];
 
@@ -127,6 +128,7 @@ public class EjerciciosMatrices {
 //                arr2d[i][j] = name;
 //            }
 //        }
+
         // Mostrar array
         System.out.println();
         System.out.println("Array con nombres original:");
@@ -140,8 +142,8 @@ public class EjerciciosMatrices {
 
         System.out.println();
         System.out.println("Array con nombres invertidos:");
-        for (int i = arr2d.length - 1; i >= 0; i--){
-            for (int j = arr2d[i].length -1; j >= 0; j--){
+        for (int i = arr2d.length - 1; i >= 0; i--) {
+            for (int j = arr2d[i].length - 1; j >= 0; j--) {
                 System.out.print(arr2d[i][j] + " ");
             }
             System.out.println();
