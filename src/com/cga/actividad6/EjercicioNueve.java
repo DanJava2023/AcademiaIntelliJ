@@ -7,53 +7,50 @@ import java.util.Scanner;
 
 public class EjercicioNueve {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int uNum1, uNum2, uNum3;
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
 
-		Scanner teclado = new Scanner(System.in);
+        System.out.print("Introduzca el primer número: ");
+        int numero1 = sc.nextInt();
+        System.out.print("Introduzca el segundo número: ");
+        int numero2 = sc.nextInt();
+        System.out.print("Introduzca el tercer número: ");
+        int numero3 = sc.nextInt();
 
-		System.out.print("Introduzca un número: ");
-		uNum1 = teclado.nextInt();
-		System.out.print("Introduzca otro número distinto: ");
-		uNum2 = teclado.nextInt();
-		System.out.print("Introduzca el último número: ");
-		uNum3 = teclado.nextInt();
+        if (numero1 > numero2 && numero1 > numero3) {
+            a = numero1;
+            if (numero2 > numero3) {
+                b = numero2;
+                c = numero3;
+            } else {
+                b = numero3;
+                c = numero2;
+            }
+        } else if (numero2 > numero1 && numero2 > numero3) {
+            a = numero2;
+            if (numero1 > numero3) {
+                b = numero1;
+                c = numero3;
+            } else {
+                b = numero3;
+                c = numero1;
+            }
+        } else {
+            a = numero3;
+            if (numero1 > numero2) {
+                b = numero1;
+                c = numero2;
+            } else {
+                b = numero2;
+                c = numero1;
+            }
+        }
 
-		
-		// Si num1 es mayor que...
-		
-		if (uNum1 > uNum2 && uNum1 > uNum3 && uNum2 > uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum1 + " " + uNum2 + " " + uNum3);
-		}
-		
-		if (uNum1 > uNum2 && uNum1 < uNum3 && uNum2 < uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum3 + " " + uNum1 + " " + uNum2);
-		}
-		
-		if (uNum1 > uNum2 && uNum1 > uNum3 && uNum2 < uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum1 + " " + uNum3 + " " + uNum2);
-		}
-		
-		// Si num1 es menor que...
-		
-		if (uNum1 < uNum2 && uNum1 > uNum3 && uNum2 > uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum2 + " " + uNum1 + " " + uNum3);
-		}
-		
-		if (uNum1 < uNum2 && uNum1 < uNum3 && uNum2 < uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum3 + " " + uNum2 + " " + uNum1);
-		}
-		
-		if (uNum1 < uNum2 && uNum1 > uNum3 && uNum2 < uNum3) {
-			System.out.println("El orden de mayor a menor es: " + uNum2 + " " + uNum1 + " " + uNum3);
-		}
+        System.out.printf("Ordenados de mayor a menor: %d, %d, %d", a, b, c);
 
-		
-		
-
-		teclado.close();
-
-	}
+        sc.close();
+    }
 
 }

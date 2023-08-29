@@ -1,10 +1,8 @@
 package com.cga.matrices;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 import java.lang.Math;
-import java.util.ArrayList;
+import java.util.Collections;
 
 public class EjerciciosMatrices {
 
@@ -67,28 +65,43 @@ public class EjerciciosMatrices {
         // Ordenar de mayor a menor la primera fila y mostrarla
         System.out.println("Primera fila original:");
 
-        int[] mayMen = new int[a2d[0].length]; // Nuevo array para almacenar la primera fila
+        Integer[] mayMen = new Integer[a2d[0].length]; // Nuevo array para almacenar la primera fila
 
         for (int i = 0; i < a2d[0].length; i++) { // Bucle for para recorrer el array
             int valor = a2d[0][i]; // Asignamos los valores de la primera fila a la variable 'valor'
             mayMen[i] = valor; // Asignamos esos valores al nuevo array
             System.out.print(mayMen[i] + " "); // Imprimimos el nuevo array
         }
+
         System.out.println();
         System.out.println("Primera fila ordenada de mayor a menor:");
-        Arrays.sort(mayMen); // Usamos método .sort para ordenar el nuevo array
+        Arrays.sort(mayMen, Collections.reverseOrder()); // Usamos método .sort para ordenar el nuevo array
         System.out.println(Arrays.toString(mayMen)); // Imprimimos el muevo array con el método .toString
-
         System.out.println();
 
         // Ordenar de menor a mayor la segunda columna y mostrarla
-        System.out.println("Segunda columna:");
-        for (int i = 0; i < a2d.length; i++) {
-            System.out.println(a2d[i][1]);
+        System.out.println("Segunda columna original:");
+
+        Integer[] menMay = new Integer[a2d.length]; // Nuevo array para almacenar la segunda columna
+
+        for (int i = 0; i < a2d.length; i++) { // Bucle para recorrer el array
+            int value = a2d[i][1]; // Asignamos los valores de la segunda columna a la variable 'value'
+            menMay[i] = value; // Asugnamos esos valores al nuevo array
+            System.out.println(menMay[i] + " ");
         }
+
+        System.out.println();
+        System.out.println("Segunda columna ordenada de menor a mayor:");
+        Arrays.sort(menMay); // Usamos método .sort para ordenar el nuevo array
+        System.out.println(Arrays.toString(menMay)); // Imprimimos el muevo array con el método .toString
+        System.out.println();
 
         // Calcular el máximo de la suma de los valores de cada fila, mostrar
         // dichos valores de esa fila junto a la sumatoria
+
+
+        // Realizar una matriz de 4x3 de tipo String, cargar y mostrar el
+        // orden inverso que la ha añadido
 
         sc.close();
     }
