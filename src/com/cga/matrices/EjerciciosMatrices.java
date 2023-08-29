@@ -1,7 +1,10 @@
 package com.cga.matrices;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 import java.lang.Math;
+import java.util.ArrayList;
 
 public class EjerciciosMatrices {
 
@@ -61,18 +64,31 @@ public class EjerciciosMatrices {
         System.out.println();
 
 
-        // Imprimir la primera fila
-        System.out.println("Primera fila:");
-        for (int value : a2d[0]) {
-            System.out.print(value + " ");
+        // Ordenar de mayor a menor la primera fila y mostrarla
+        System.out.println("Primera fila original:");
+
+        int[] mayMen = new int[a2d[0].length]; // Nuevo array para almacenar la primera fila
+
+        for (int i = 0; i < a2d[0].length; i++) { // Bucle for para recorrer el array
+            int valor = a2d[0][i]; // Asignamos los valores de la primera fila a la variable 'valor'
+            mayMen[i] = valor; // Asignamos esos valores al nuevo array
+            System.out.print(mayMen[i] + " "); // Imprimimos el nuevo array
         }
         System.out.println();
+        System.out.println("Primera fila ordenada de mayor a menor:");
+        Arrays.sort(mayMen); // Usamos método .sort para ordenar el nuevo array
+        System.out.println(Arrays.toString(mayMen)); // Imprimimos el muevo array con el método .toString
 
-        // Imprimir la primera columna
-        System.out.println("Primera columna:");
+        System.out.println();
+
+        // Ordenar de menor a mayor la segunda columna y mostrarla
+        System.out.println("Segunda columna:");
         for (int i = 0; i < a2d.length; i++) {
-            System.out.println(a2d[i][0]);
+            System.out.println(a2d[i][1]);
         }
+
+        // Calcular el máximo de la suma de los valores de cada fila, mostrar
+        // dichos valores de esa fila junto a la sumatoria
 
         sc.close();
     }
