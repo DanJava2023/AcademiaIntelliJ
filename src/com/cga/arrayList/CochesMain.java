@@ -1,4 +1,4 @@
-package com.cga.ArrayList;
+package com.cga.arrayList;
 
 import java.util.Scanner;
 import java.util.ArrayList;

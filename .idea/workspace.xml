@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Ejercicios matrices 2, 3 y 4" />
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/ArrayList/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/ArrayList/ClientesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/ClientesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/ArrayList/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/Coche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/ArrayList/CochesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/CochesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/matrices/pruebasCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/pruebasCollections.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,13 +81,13 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjerciciosMatrices">
-    <configuration name="CochesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.ArrayList.CochesMain" />
+  <component name="RunManager" selected="Application.pruebasCollections">
+    <configuration name="EjercicioTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioTres" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.ArrayList.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioNueve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.actividad6.EjercicioNueve" />
+    <configuration name="EjercicioUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioUno" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.actividad6.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +113,7 @@
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.matrices.*" />
+          <option name="PATTERN" value="com.cga.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="pruebasCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.matrices.pruebasCollections" />
+      <option name="MAIN_CLASS_NAME" value="com.cga.arrayList.pruebasCollections" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.matrices.*" />
+          <option name="PATTERN" value="com.cga.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pruebasCollections" />
+        <item itemvalue="Application.EjercicioTres" />
+        <item itemvalue="Application.EjercicioUno" />
         <item itemvalue="Application.EjerciciosMatrices" />
         <item itemvalue="Application.FuncionesMain" />
-        <item itemvalue="Application.pruebasCollections" />
-        <item itemvalue="Application.EjercicioNueve" />
-        <item itemvalue="Application.CochesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693335922037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Arreglos varios">
+      <option name="closed" value="true" />
+      <created>1693336104533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693336104533</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Arreglos varios">
+      <option name="closed" value="true" />
+      <created>1693336229574</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693336229574</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +270,8 @@
     <MESSAGE value="ArrayList Coche" />
     <MESSAGE value="PDF Tema 7 y Tema 8" />
     <MESSAGE value="Ejercicios matrices 2, 3 y 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios matrices 2, 3 y 4" />
+    <MESSAGE value="Arreglos varios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglos varios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-package com.cga.ArrayList;
+package com.cga.arrayList;
 
 public class Coche {
     private String matricula;

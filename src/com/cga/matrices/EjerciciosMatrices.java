@@ -104,12 +104,12 @@ public class EjerciciosMatrices {
 
         System.out.println("Suma de todas las filas y resultado: ");
         for (int i = 0; i < a2d.length; i++) {
-            suma = 0;
+            suma = 0; // Asignar 0 cada vez que cambia de fila el bucle
             for (int j = 0; j < a2d[i].length; j++) {
-                suma += a2d[i][j];
+                suma += a2d[i][j]; // Asignar a 'suma' todos los valores de la fila
                 System.out.print(a2d[i][j] + " ");
             }
-            System.out.println(" = " + suma);
+            System.out.println(" = " + suma); // Mostrar al final de cada fila la suma total
         }
 
         // Realizar una matriz de 4x3 de tipo String, cargar y mostrar el
@@ -140,6 +140,7 @@ public class EjerciciosMatrices {
 //          System.out.println(Arrays.deepToString(arr2d));
         }
 
+        // Array invertido para reordenar valores
         System.out.println();
         System.out.println("Array con nombres invertidos:");
         for (int i = arr2d.length - 1; i >= 0; i--) {

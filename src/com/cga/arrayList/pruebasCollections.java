@@ -1,11 +1,8 @@
-package com.cga.matrices;
-
-import com.cga.ArrayList.Clientes;
+package com.cga.arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class pruebasCollections {
 
