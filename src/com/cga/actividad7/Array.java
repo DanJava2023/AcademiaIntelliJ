@@ -1,7 +1,6 @@
 package com.cga.actividad7;
 
 import java.lang.Math;
-import java.util.Arrays;
 
 public class Array {
 
