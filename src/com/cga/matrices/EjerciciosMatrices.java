@@ -61,10 +61,17 @@ public class EjerciciosMatrices {
         System.out.println();
 
 
-        // Ordenar de mayor a menor la primera fila
+        // Imprimir la primera fila
         System.out.println("Primera fila:");
         for (int value : a2d[0]) {
             System.out.print(value + " ");
+        }
+        System.out.println();
+
+        // Imprimir la primera columna
+        System.out.println("Primera columna:");
+        for (int i = 0; i < a2d.length; i++) {
+            System.out.println(a2d[i][0]);
         }
 
         sc.close();
