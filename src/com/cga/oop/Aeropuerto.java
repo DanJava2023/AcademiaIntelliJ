@@ -89,7 +89,7 @@ public class Aeropuerto {
     @Override
     public String toString() {
         return "Aeropuerto: " +
-                "Nombre : " + nombre + ", País : " + pais + ", Calle : " + calle + ", Número : " + numero + ", Ciudad : " + ciudad +
-                ", Inauguración : " + inauguracion + ", Capacidad : " + capacidad + ", Años abierto : " + aniosAbierto() + " años";
+                "Nombre : " + nombre + " - País : " + pais + " - Calle : " + calle + " - Número : " + numero + " - Ciudad : " + ciudad +
+                " - Inauguración : " + inauguracion + " - Capacidad : " + capacidad + " - Años abierto : " + aniosAbierto() + " años";
     }
 }

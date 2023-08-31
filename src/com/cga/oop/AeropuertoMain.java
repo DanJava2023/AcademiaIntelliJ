@@ -10,8 +10,6 @@ public class AeropuertoMain {
 
         JOptionPane.showMessageDialog(null, ae1);
 
-
-
         // Método aniosAbierto
 //        System.out.println("Años abierto: " + ae1.aniosAbierto() + " años");
 
