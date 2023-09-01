@@ -16,7 +16,6 @@ public class Main {
         ae.addAviones(av1);
         ae.addAviones(av3);
 
-
         System.out.println(ae);
         System.out.println(ae.mostrarAviones());
         System.out.println(ae.getNumAviones());
