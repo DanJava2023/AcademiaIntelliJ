@@ -27,7 +27,7 @@ public class Funciones {
         double area = 2 * Math.PI * radio * (altura + radio);
         double volumen = Math.PI * (radio * radio) * altura;
 
-        System.out.print("Para calcular el area del cilindro pulse 1. Para calcular el volúmen del cilindro pulse 2: ");
+        System.out.print("Para calcular el área del cilindro pulse 1. Para calcular el volúmen del cilindro pulse 2: ");
         int uNum = teclado.nextInt();
 
         if (uNum == 1) {
@@ -105,14 +105,14 @@ public class Funciones {
     }
 
     // Ejercicio 11
-    public double potencia(double base, int exp) {
+    public long potencia(double base, int exp) {
 
-        double sol;
+        long sol;
 
         if (exp == 0) {
-            sol = 1.0;
+            sol = 1;
         } else {
-            sol = base * potencia(base, exp - 1);
+            sol = (long) (base * potencia(base, exp - 1));
         }
         return sol;
     }

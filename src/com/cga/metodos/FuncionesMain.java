@@ -40,9 +40,9 @@ public class FuncionesMain {
                 case 3 -> {
                     System.out.println("// Ejercicio 3 - Este ejercicio muestra el área o el volúmen de un cilindro en función de los valores introducidos //");
                     System.out.println();
-                    System.out.println("Introduce la altura del cilindro: ");
+                    System.out.println("Introduce la altura del cilindro (ej: 10,25): ");
                     double altNum = sc.nextDouble();
-                    System.out.println("Introduce el radio del cilindro: ");
+                    System.out.println("Introduce el radio del cilindro (ej: 5,80): ");
                     double radNum = sc.nextDouble();
                     System.out.println();
                     fun.areaVolumen(altNum, radNum);
@@ -87,7 +87,7 @@ public class FuncionesMain {
                     System.out.println("\n");
                 }
                 case 9 -> {
-                    System.out.println("// Ejercicio 9 - Este ejercicio es una calculadora, te pide dos números y luego pregunta que operacion quieres hacer con ellos //");
+                    System.out.println("// Ejercicio 9 - Este ejercicio es una calculadora, te pide dos números y luego pregunta que operación quieres hacer con ellos //");
                     System.out.println();
                     System.out.println("Introduce el primer número: ");
                     int calNum1 = sc.nextInt();
