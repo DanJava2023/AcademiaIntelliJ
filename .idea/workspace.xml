@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
-      <change afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioCinco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop2/Aeropuerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop2/AeropuertoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop2/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop2/AvionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop2/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop4/Aeropuerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop4/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop4/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop4/Main.java" afterDir="false" />
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Cambios varios. Utilización de metodos y constructores.">
+      <change afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioSeis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/actividad7/Loteria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioCuatro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad7/EjercicioCinco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alumno/IdeaProjects/AcademiaIntelliJ/src/com/cga/oop3",
-    "onboarding.tips.debug.path": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java",
-    "settings.editor.selected.configurable": "terminal",
-    "two.files.diff.last.used.file": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/com/cga/metodos/FuncionesMain.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alumno/IdeaProjects/AcademiaIntelliJ/src/com/cga/oop3&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/com/cga/metodos/FuncionesMain.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alumno\IdeaProjects\AcademiaIntelliJ\src\com\cga\oop3" />
@@ -90,13 +82,13 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AeropuertoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.oop.AeropuertoMain" />
+  <component name="RunManager" selected="Application.Loteria">
+    <configuration name="ClientesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.arrayList.ClientesMain" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.oop.*" />
+          <option name="PATTERN" value="com.cga.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.oop.AvionMain" />
+    <configuration name="CochesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.arrayList.CochesMain" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.oop.*" />
+          <option name="PATTERN" value="com.cga.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioCuatro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioCuatro" />
+    <configuration name="EjercicioCinco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioCinco" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.oop4.Main" />
+    <configuration name="EjercicioSeis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioSeis" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.oop4.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cga.oop2.AeropuertoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.oop2.AeropuertoMain" />
+    <configuration name="Loteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.Loteria" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.oop2.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.cga.oop2.AeropuertoMain" />
-        <item itemvalue="Application.EjercicioCuatro" />
-        <item itemvalue="Application.AeropuertoMain" />
-        <item itemvalue="Application.AvionMain" />
+        <item itemvalue="Application.Loteria" />
+        <item itemvalue="Application.EjercicioSeis" />
+        <item itemvalue="Application.EjercicioCinco" />
+        <item itemvalue="Application.ClientesMain" />
+        <item itemvalue="Application.CochesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693338469844</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cambios varios. Utilización de metodos y constructores.">
+      <option name="closed" value="true" />
+      <created>1693594477198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693594477198</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cambios varios. Utilización de metodos y constructores.">
+      <option name="closed" value="true" />
+      <created>1693594909079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693594909079</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +296,8 @@
     <MESSAGE value="PDF Tema 7 y Tema 8" />
     <MESSAGE value="Ejercicios matrices 2, 3 y 4" />
     <MESSAGE value="Arreglos varios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglos varios" />
+    <MESSAGE value="Cambios varios. Utilización de metodos y constructores." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios varios. Utilización de metodos y constructores." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
