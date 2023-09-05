@@ -5,7 +5,7 @@ public class pNoSanitario extends Personal {
     private String oficio;
     private String area;
 
-    public pNoSanitario(String nombre, String apellido, int edad, String oficio, String area) {
+    public pNoSanitario(Personal personal, String oficio, String area) {
         super(nombre, apellido, edad);
         this.oficio = oficio;
         this.area = area;
