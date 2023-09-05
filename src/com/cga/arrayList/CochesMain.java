@@ -78,7 +78,7 @@ public class CochesMain {
             System.out.println(coches.get(i)); // Se invoca el método toString de la class Coche
     }
 
-    // Método para mostrar todos los coches de una marca que se pido por telcado
+    // Método para mostrar todos los coches de una marca que se pidio por telcado
     public static void mostrarPorMarca() {
         String marca;
         System.out.println("Introduce marca: ");

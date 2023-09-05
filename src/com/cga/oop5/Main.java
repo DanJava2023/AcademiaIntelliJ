@@ -1,4 +1,4 @@
-package com.cga.oop4;
+package com.cga.oop5;
 
 public class Main {
     public static void main(String[] args) {
