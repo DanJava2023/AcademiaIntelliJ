@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop5/Aeropuerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop5/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop5/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/oop5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/Owned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/Aeropuerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/AeropuertoPrivado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/AeropuertoPublico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/Enfermero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/Medico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop7/pSanitario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop8/Personal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop8/pNoSanitario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/oop8/pSanitario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/arrayList/CochesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/CochesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/oop4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/oop5/Aeropuerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop5/Aeropuerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/oop5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +82,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alumno/IdeaProjects/AcademiaIntelliJ/src/com/cga/oop5",
+    "last_opened_file_path": "C:/Users/Alumno/IdeaProjects/AcademiaIntelliJ/src/com/cga/oop6",
     "onboarding.tips.debug.path": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "two.files.diff.last.used.file": "C:/Users/Alumno/Desktop/Curso Java/IntelliJ/Academia/src/com/cga/metodos/FuncionesMain.java"
@@ -77,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alumno\IdeaProjects\AcademiaIntelliJ\src\com\cga\oop6" />
       <recent name="C:\Users\Alumno\IdeaProjects\AcademiaIntelliJ\src\com\cga\oop5" />
       <recent name="C:\Users\Alumno\IdeaProjects\AcademiaIntelliJ\src\com\cga\oop3" />
       <recent name="C:\Users\Alumno\IdeaProjects\AcademiaIntelliJ\src\com\cga\oop2" />
@@ -86,52 +100,13 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.cga.oop5.Main">
-    <configuration name="ClientesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.arrayList.ClientesMain" />
+  <component name="RunManager" selected="Application.com.cga.oop8.Main">
+    <configuration name="Owned" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.Owned" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjerciciosMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.matrices.EjerciciosMatrices" />
-      <module name="Academia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cga.matrices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncionesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.metodos.FuncionesMain" />
-      <module name="Academia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cga.metodos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.oop4.Main" />
-      <module name="Academia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cga.oop4.*" />
+          <option name="PATTERN" value="com.cga.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +127,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.cga.oop6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.oop6.Main" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.oop6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cga.oop7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.oop7.Main" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.oop7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cga.oop8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.oop8.Main" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.oop8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.cga.oop8.Main" />
+        <item itemvalue="Application.com.cga.oop7.Main" />
+        <item itemvalue="Application.Owned" />
+        <item itemvalue="Application.com.cga.oop6.Main" />
         <item itemvalue="Application.com.cga.oop5.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FuncionesMain" />
-        <item itemvalue="Application.EjerciciosMatrices" />
-        <item itemvalue="Application.ClientesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693852234983</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Arreglos varios">
+      <option name="closed" value="true" />
+      <created>1693926175210</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693926175210</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

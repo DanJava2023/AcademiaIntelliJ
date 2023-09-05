@@ -1,4 +1,4 @@
-package com.cga.oop5;
+package com.cga.oop6;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class Main {
         // Instanciar el objeto de la clase Aeropuerto usando el objeto dir
         Aeropuerto ae = new Aeropuerto(dir, "Aeropuerto del Norte", 1946, 15000);
         Aeropuerto ae1 = new Aeropuerto(dir, "Aeropuerto del Sur", 1985, 152000);
+        AeropuertoPublico apu = new AeropuertoPublico(1500,55, dir, "Aeropuerto del Prat", 1956, 8000 );
+        AeropuertoPrivado apr = new AeropuertoPrivado(2, dir, ae.getNombre(), ae.getInauguracion(), ae.getInauguracion());
 
         Avion av1 = new Avion("Airbus a320", 150, 900);
         Avion av2 = new Avion("Boeing 747", 175, 800);
@@ -19,6 +21,9 @@ public class Main {
 
         System.out.println(ae);
         System.out.println(ae1);
+        System.out.println(apu);
+        System.out.println(apr);
+        System.out.println();
 
         System.out.println(ae.mostrarAviones());
 
