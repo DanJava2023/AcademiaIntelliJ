@@ -2,9 +2,9 @@ package com.cga.oop8;
 
 public class Personal {
 
-    private String nombre;
-    private String apellido;
-    private int edad;
+    protected static String nombre;
+    protected static String apellido;
+    protected static int edad;
     private static int id_autonumerado = 1;
     private int id;
 

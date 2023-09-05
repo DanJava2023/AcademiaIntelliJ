@@ -2,24 +2,24 @@ package com.cga.oop8;
 
 public class pSanitario extends Personal {
 
-    private String especialdiad;
+    private String especialidad;
     private int aniosejerciendo;
     private int pacientes;
 
 
-    public pSanitario(String especialdiad, int aniosejerciendo, int pacientes) {
+    public pSanitario(Personal personal, String especialidad, int aniosejerciendo, int pacientes) {
         super(nombre, apellido, edad);
-        this.especialdiad = especialdiad;
+        this.especialidad = especialidad;
         this.aniosejerciendo = aniosejerciendo;
         this.pacientes = pacientes;
     }
 
-    public String getEspecialdiad() {
-        return especialdiad;
+    public String getEspecialidad() {
+        return especialidad;
     }
 
-    public void setEspecialdiad(String especialdiad) {
-        this.especialdiad = especialdiad;
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
     }
 
     public int getAniosejerciendo() {
@@ -41,7 +41,7 @@ public class pSanitario extends Personal {
     @Override
     public String toString() {
         return "pSanitario{" +
-                "especialdiad='" + especialdiad + '\'' +
+                "especialdiad='" + especialidad + '\'' +
                 ", aniosejerciendo=" + aniosejerciendo +
                 ", pacientes=" + pacientes +
                 "} " + super.toString();
