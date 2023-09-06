@@ -34,7 +34,7 @@ public class Enfermero extends pSanitario{
     @Override
     public String toString() {
         return  super.toString() +
-                "    ENFERMERO - " +
+                "       ENFERMERO - " +
                 " Especialidad: " + especialidad +
                 ", Cargo: " + cargo;
     }

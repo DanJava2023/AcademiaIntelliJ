@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="oop7 en cascada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cga/oop7/Enfermero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop7/Enfermero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/oop7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/oop7/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop7/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/oop7/pSanitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop7/pSanitario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/oop8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/oop8/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/oop8/Personal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.cga.oop7.Main">
+  <component name="RunManager" selected="Application.com.cga.oop8.Main">
     <configuration name="Owned" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.Owned" />
       <module name="Academia" />
@@ -153,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.cga.oop7.Main" />
         <item itemvalue="Application.com.cga.oop8.Main" />
+        <item itemvalue="Application.com.cga.oop7.Main" />
         <item itemvalue="Application.Owned" />
         <item itemvalue="Application.com.cga.oop6.Main" />
         <item itemvalue="Application.com.cga.oop5.Main" />
@@ -298,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693926175210</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="oop7 en cascada">
+      <option name="closed" value="true" />
+      <created>1694011743296</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694011743296</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +332,8 @@
     <MESSAGE value="Cambios varios. Utilización de metodos y constructores." />
     <MESSAGE value="Ejercicios 5 y 6 de la actividad 7 terminados. Pruebas Loteria" />
     <MESSAGE value="Arreglos varios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglos varios" />
+    <MESSAGE value="oop7 en cascada" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop7 en cascada" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

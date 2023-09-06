@@ -4,6 +4,7 @@ public class Personal {
 
     protected static String nombre;
     protected static String apellido;
+
     protected static int edad;
     private static int id_autonumerado = 1;
     private int id;
@@ -14,6 +15,7 @@ public class Personal {
         this.edad = edad;
         this.id = id_autonumerado++;
     }
+
 
     public int getId() {
         return id;
