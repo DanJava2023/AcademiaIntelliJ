@@ -49,7 +49,7 @@ public class Empleado extends Hospital {
     @Override
     public String toString() {
         return super.toString() +
-                " EMPLEADO - " +
+                "   EMPLEADO - " +
                 "ID del empleado: " + this.id +
                 " Nombre: " + nombreEmpleado +
                 ", Apellido: " + apellidoEmpleado +

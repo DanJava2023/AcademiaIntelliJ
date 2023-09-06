@@ -1,17 +1,15 @@
 package com.cga.oop7;
 
-public class pSanitario {
+public class pSanitario extends Empleado{
 
     // Atributos
     private String seccion;
     private String area;
-    private Hospital hp;
-    private Empleado empleado;
 
     // Constructor
-    public pSanitario(Hospital hp, Empleado empleado, String seccion, String area) {
-        this.hp = hp;
-        this.empleado = empleado;
+
+    public pSanitario(String nombreHospital, String ciudadHospital, int inauguracion, int capacidad, String nombreEmpleado, String apellidoEmpleado, int edad, String seccion, String area) {
+        super(nombreHospital, ciudadHospital, inauguracion, capacidad, nombreEmpleado, apellidoEmpleado, edad);
         this.seccion = seccion;
         this.area = area;
     }
@@ -34,7 +32,9 @@ public class pSanitario {
 
     @Override
     public String toString() {
-        return  " " + hp + empleado + " PERSONAL SANITARIO " + " Sección: " + seccion + ", Área: " + area;
-
+        return  super.toString() +
+                "     PERSONAL SANITARIO - " +
+                " Sección: " + seccion +
+                ", Área: " + area + '\n';
     }
 }

@@ -1,6 +1,6 @@
 package com.cga.oop7;
 
-public class Medico{
+public class Medico extends pSanitario{
 
     // Atributos
     private String especialidad;
@@ -8,7 +8,8 @@ public class Medico{
     private int numPacientes;
 
     // Constructor
-    public Medico(String especialidad, int aniosEjerciendo, int numPacientes) {
+    public Medico(String nombreHospital, String ciudadHospital, int inauguracion, int capacidad, String nombreEmpleado, String apellidoEmpleado, int edad, String seccion, String area, String especialidad, int aniosEjerciendo, int numPacientes) {
+        super(nombreHospital, ciudadHospital, inauguracion, capacidad, nombreEmpleado, apellidoEmpleado, edad, seccion, area);
         this.especialidad = especialidad;
         this.aniosEjerciendo = aniosEjerciendo;
         this.numPacientes = numPacientes;
@@ -40,7 +41,8 @@ public class Medico{
 
     @Override
     public String toString() {
-        return  " MÉDICO - " +
+        return  super.toString() +
+                "        MÉDICO - " +
                 " Especialidad: " + especialidad +
                 ", Años ejerciendo: " + aniosEjerciendo +
                 ", Número de pacientes: " + numPacientes;

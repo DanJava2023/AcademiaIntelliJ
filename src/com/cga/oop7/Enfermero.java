@@ -1,13 +1,16 @@
 package com.cga.oop7;
 
-public class Enfermero{
+public class Enfermero extends pSanitario{
 
     // Atributos
     private String especialidad;
     private String cargo;
 
     // Constructor
-    public Enfermero(String especialidad, String cargo) {
+
+
+    public Enfermero(String nombreHospital, String ciudadHospital, int inauguracion, int capacidad, String nombreEmpleado, String apellidoEmpleado, int edad, String seccion, String area, String especialidad, String cargo) {
+        super(nombreHospital, ciudadHospital, inauguracion, capacidad, nombreEmpleado, apellidoEmpleado, edad, seccion, area);
         this.especialidad = especialidad;
         this.cargo = cargo;
     }
@@ -30,7 +33,8 @@ public class Enfermero{
 
     @Override
     public String toString() {
-        return  " ENFERMERO - " +
+        return  super.toString() +
+                "    ENFERMERO - " +
                 " Especialidad: " + especialidad +
                 ", Cargo: " + cargo;
     }
