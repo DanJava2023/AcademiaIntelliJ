@@ -30,8 +30,8 @@ public class EjercicioDoce {
 		vManzanas = kManzanas * KGMANZ;
 		tVentas = vPeras + vManzanas;
 
-		System.out.printf("El precio de venta total de las peras ha sido de: %.2f€\n", vPeras);
-		System.out.printf("El precio de venta total de las manzanas ha sido de: %.2f€\n", vManzanas);
+		System.out.printf("El precio de venta total de las peras ha sido de: %.2f€ \n", vPeras);
+		System.out.printf("El precio de venta total de las manzanas ha sido de: %.2f€ \n", vManzanas);
 		System.out.printf("El precio de venta total de toda la fruta ha sido de: %.2f€", tVentas);
 
 		teclado.close();

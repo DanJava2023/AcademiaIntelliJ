@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Uso de herencias, interfaces y metodos heredados">
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Anfibio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Depredador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Presa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Rana.java" afterDir="false" />
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Herencia Anfibio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCuatro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDoce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDoce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +84,13 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.cga.herenciaAnimal.Main">
-    <configuration name="EjerciciosMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.matrices.EjerciciosMatrices" />
+  <component name="RunManager" selected="Application.EjercicioSeis">
+    <configuration name="EjercicioCinco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioCinco" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.matrices.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.herenciaAbstract.Main" />
+    <configuration name="EjercicioCuatro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioCuatro" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.herenciaAbstract.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cga.herenciaAnimal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.herenciaAnimal.Main" />
+    <configuration name="EjercicioSeis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioSeis" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.herenciaAnimal.*" />
+          <option name="PATTERN" value="com.cga.actividad7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cga.herenciaFigura.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.herenciaFigura.Main" />
+    <configuration name="EjercicioTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad6.EjercicioTres" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.herenciaFigura.*" />
+          <option name="PATTERN" value="com.cga.actividad6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cga.herenciaInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.herenciaInterface.Main" />
+    <configuration name="EjercicioUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.actividad6.EjercicioUno" />
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.herenciaAnimal.*" />
+          <option name="PATTERN" value="com.cga.actividad6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.cga.herenciaAnimal.Main" />
-        <item itemvalue="Application.com.cga.herenciaInterface.Main" />
-        <item itemvalue="Application.com.cga.herenciaFigura.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EjerciciosMatrices" />
+        <item itemvalue="Application.EjercicioSeis" />
+        <item itemvalue="Application.EjercicioCuatro" />
+        <item itemvalue="Application.EjercicioCinco" />
+        <item itemvalue="Application.EjercicioUno" />
+        <item itemvalue="Application.EjercicioTres" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694113359102</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Herencia Anfibio">
+      <option name="closed" value="true" />
+      <created>1694191808918</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694191808918</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +358,8 @@
     <MESSAGE value="oop7 en cascada" />
     <MESSAGE value="Arreglos varios" />
     <MESSAGE value="Uso de herencias, interfaces y metodos heredados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uso de herencias, interfaces y metodos heredados" />
+    <MESSAGE value="Herencia Anfibio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Herencia Anfibio" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
