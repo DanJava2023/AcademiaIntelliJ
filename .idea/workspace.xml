@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAbstract/Enfermero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAbstract/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAbstract/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAbstract/Supervisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaFigura/Elipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaFigura/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaFigura/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaInterface/Elipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaInterface/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaInterface/Main.java" afterDir="false" />
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Uso de herencias, interfaces y metodos heredados">
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Anfibio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Depredador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Presa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Rana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad4/EjercicioCuatro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,20 +89,7 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.cga.herenciaInterface.Main">
-    <configuration name="ClientesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.arrayList.ClientesMain" />
-      <module name="Academia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cga.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.cga.herenciaAnimal.Main">
     <configuration name="EjerciciosMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.matrices.EjerciciosMatrices" />
       <module name="Academia" />
@@ -132,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.cga.herenciaAnimal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.herenciaAnimal.Main" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.herenciaAnimal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.cga.herenciaFigura.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.herenciaFigura.Main" />
       <module name="Academia" />
@@ -150,7 +147,7 @@
       <module name="Academia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cga.herenciaInterface.*" />
+          <option name="PATTERN" value="com.cga.herenciaAnimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.cga.herenciaAnimal.Main" />
         <item itemvalue="Application.com.cga.herenciaInterface.Main" />
         <item itemvalue="Application.com.cga.herenciaFigura.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EjerciciosMatrices" />
-        <item itemvalue="Application.ClientesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694027459648</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Uso de herencias, interfaces y metodos heredados">
+      <option name="closed" value="true" />
+      <created>1694113359102</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694113359102</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +354,8 @@
     <MESSAGE value="Ejercicios 5 y 6 de la actividad 7 terminados. Pruebas Loteria" />
     <MESSAGE value="oop7 en cascada" />
     <MESSAGE value="Arreglos varios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglos varios" />
+    <MESSAGE value="Uso de herencias, interfaces y metodos heredados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uso de herencias, interfaces y metodos heredados" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

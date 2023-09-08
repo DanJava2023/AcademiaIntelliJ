@@ -25,7 +25,7 @@ public class EjercicioCuatro {
 
 		imc = peso / (altura * 2);
 
-		System.out.printf("Tu índice de masa corporal (IMC) es: %.2f\n", imc);
+		System.out.printf("Tu índice de masa corporal (IMC) es: %.2f \n", imc);
 
 		if (imc >= 18 && imc <= 25) {
 			System.out.println("Estas en un intervalo saludable");
