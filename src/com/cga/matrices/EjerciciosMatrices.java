@@ -115,8 +115,7 @@ public class EjerciciosMatrices {
         // Realizar una matriz de 4x3 de tipo String, cargar y mostrar el
         // orden inverso que la ha añadido
 
-
-        String[][] arr2d = new String[][]{{"Juan", "Dani", "Ivan"}, {"Douglas", "Roger", "Cande"}, {"Ruben", "Mel", "Erick"}, {"Leo", "Pepe", "Maria"}};
+        String[][] arr2d = {{"Juan", "Dani", "Ivan"}, {"Douglas", "Roger", "Cande"}, {"Ruben", "Mel", "Erick"}, {"Leo", "Pepe", "Maria"}};
 
         // Entrada de datos manual
 //      String[][] arr2d = new String[4][3];

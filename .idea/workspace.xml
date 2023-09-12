@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Herencia Anfibio">
+    <list default="true" id="c0d1e87f-457c-4cae-b765-e6fbb020d147" name="Changes" comment="Arreglos varios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDoce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/actividad6/EjercicioDoce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/herenciaAnimal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/arrayList/pruebasCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/arrayList/pruebasCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cga/matrices/EjerciciosMatrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <recent name="C:\Users\Alumno\Desktop\Curso Java\IntelliJ\Academia\src\com\cga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjercicioSeis">
+  <component name="RunManager" selected="Application.EjercicioCinco">
     <configuration name="EjercicioCinco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.actividad7.EjercicioCinco" />
       <module name="Academia" />
@@ -124,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cga.actividad6.EjercicioTres" />
-      <module name="Academia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cga.actividad6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EjercicioUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cga.actividad6.EjercicioUno" />
       <module name="Academia" />
@@ -150,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjerciciosMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cga.matrices.EjerciciosMatrices" />
+      <module name="Academia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cga.matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioCinco" />
+        <item itemvalue="Application.EjerciciosMatrices" />
         <item itemvalue="Application.EjercicioSeis" />
         <item itemvalue="Application.EjercicioCuatro" />
-        <item itemvalue="Application.EjercicioCinco" />
         <item itemvalue="Application.EjercicioUno" />
-        <item itemvalue="Application.EjercicioTres" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694191808918</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Arreglos varios">
+      <option name="closed" value="true" />
+      <created>1694200170951</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694200170951</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,10 +364,10 @@
     <MESSAGE value="Cambios varios. Utilización de metodos y constructores." />
     <MESSAGE value="Ejercicios 5 y 6 de la actividad 7 terminados. Pruebas Loteria" />
     <MESSAGE value="oop7 en cascada" />
-    <MESSAGE value="Arreglos varios" />
     <MESSAGE value="Uso de herencias, interfaces y metodos heredados" />
     <MESSAGE value="Herencia Anfibio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Herencia Anfibio" />
+    <MESSAGE value="Arreglos varios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglos varios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
