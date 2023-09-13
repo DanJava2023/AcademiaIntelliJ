@@ -20,6 +20,7 @@ public class pruebasCollections {
         System.out.println(Arrays.toString(arr));
 
         System.out.println();
+
         ArrayList<Double> daniel = new ArrayList<Double>();
 
         daniel.add(2.5);
