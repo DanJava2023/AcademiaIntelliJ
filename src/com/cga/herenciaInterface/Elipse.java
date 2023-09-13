@@ -29,6 +29,7 @@ public class Elipse implements Figura {
         this.ejeDos = ejeDos;
     }
 
+    // Desarrollo del método
     @Override
     public double area() {
         return (Math.PI * ejeUno * ejeDos);

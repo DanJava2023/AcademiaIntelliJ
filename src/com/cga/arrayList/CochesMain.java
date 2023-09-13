@@ -32,7 +32,7 @@ public class CochesMain {
         int Id;
 
         // Variable auxiliar que contendrá la referencia a cada coche nuevo.
-        Coche aux;
+
         int i, N;
 
         // Se pide por teclado el número de coches a leer
@@ -58,7 +58,7 @@ public class CochesMain {
 
             sc.nextLine(); // Limpiar el intro
 
-            aux = new Coche(); // Se crea un objeto Coche y se asigna su referencia a aux
+            Coche aux = new Coche(); // Se crea el objeto Coche y se asigna su referencia a aux
 
             // Se asigna valores a los atributos del nuevo objeto
             aux.setMatricula(matricula);
