@@ -13,6 +13,7 @@ public class Main {
         lista.add(new Persona("Charlie", 20));
         lista.add(new Persona("Johnny", 31));
         lista.add(new Persona("Max", 23));
+        lista.add(new Persona("Sam", 21));
 
         // Ordenar la lista de personas por edad usando un comparador personalizado
         Collections.sort(lista, new Comparator<Persona>() {
