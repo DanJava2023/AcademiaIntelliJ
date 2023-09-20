@@ -6,31 +6,25 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner sc = new Scanner(System.in);
-    static ArrayList<Libro> libros = new ArrayList<Libro>();
+    static ArrayList<Libro> libros = new ArrayList<>();
 
     public static void main(String[] args) {
 
         int uNum;
-        String userCat = "";
+        String userCat;
         do {
             System.out.println("1. Cargar libros" + "\n" + "2. Mostrar Libros" + "\n" + "3. Precio mayor" + "\n" + "4. Categorías");
             uNum = sc.nextInt();
 
             switch (uNum) {
-                case 1:
-                    cargar();
-                    break;
-                case 2:
-                    listar();
-                    break;
-                case 3:
-                    precio();
-                    break;
-                case 4:
+                case 1 -> cargar();
+                case 2 -> listar();
+                case 3 -> precio();
+                case 4 -> {
                     System.out.println("Escoge una categoría entre: 'Fantasía', 'Manga' ó 'Ciencia-Ficción': ");
                     userCat = sc.next();
                     categoria(userCat);
-                    break;
+                }
             }
 
         } while (uNum != 0);
